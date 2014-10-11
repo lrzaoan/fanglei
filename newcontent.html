@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html content="zh-tw" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=9">-->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Note there is no responsive meta tag here -->
+
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>香港方蕾集团官网</title>
+    <link href="css/base.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/index.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" media="screen">
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body >
+<div class="rsiderbar">
+    <img src="images/leftside.png">
+</div>
+<div class="container " id="newcontainer">
+    <div class="leftbar clearfix">
+        <ul class="leftnav subMenu" >
+            <a class="nav_btn" href="#contactus"> <li class="cus"></li> </a>
+            <a class="nav_btn" href="#coorel"> <li class="cr"></li></a>
+            <a class="nav_btn" href="#buscoc" ><li class="bc"> </li></a>
+            <a class="nav_btn current" href="#newtrend" ><li class="nt"></li></a>
+            <a class="nav_btn " href="#aboutus"><li class="aus"></li></a>
+            <a class="nav_btn" href="index.html"><li class="homepage"></li></a>
+        </ul>
+    </div>
+    <div class="content">
+        <div id="content_1" class=" mCustomScrollbar _mCS_1 clearfix">
+            <div class="mCustomScrollBox mCS-light" id="mCSB_1" >
+                <div class="mCSB_container newcon" >
+                        <h1>NEW  TREND</h1>
+                    <div class="contitle">公司成立12週年中秋慈善晚會   <span>2014/08/15 </span></div>
+                    <p>
+                        本次慈善晚会由中国诚信联盟、广东省侨界仁爱基金会联合主办。在深圳市福田体育公园体育馆圆满落幕！真情方蕾，爱在你我他，有爱就有奇迹！这是一场震撼的视听盛宴，更是一次声势浩大的爱的正能量的传递！
+                    </p>
+                    <p>
+                        <img src="images/new1.jpg"/>
+                    </p>
+                    <p>
+                        当天晚会未开场，已经掀起了小高潮，进场的嘉宾纷纷在签名墙留影纪念，络绎不绝。晚会现场更是人气爆棚。一段气势磅礴的中华鼓舞拉开了整台晚会的序幕，也敲响了哈巴拉更辉煌的明天；震撼的哈巴拉宣传短片，让在场的朋友一次又一次为这个了不起的具有狮群文化的团队鼓掌呐喊；真情传递的视频播放中，真切感受和见证了哈巴拉团队他们的慈善之行；真情延续的现场采访中，更是看到了一个心怀天下的企业家的慈善之心；爱是永无止息，一段爱之颂奏响了平凡世界里的伟大爱情；更有哈巴拉执行董事黄小莉小姐和哈巴拉的老朋友“部落组合”的倾情献唱，表达了对祖国对母亲的爱的祝福！整台晚会精彩不断，其中的爱心拍卖环节 掀起了慈善晚会的又一大高潮！"真情""慈善"贯穿了晚会的始终，在哈巴拉爱的感召下，在座的爱心企业家们纷纷献出自己的爱心，现场筹集善款达千万。慈善事业就如同"哈巴拉，缘天下"的口号一样，需要全社会的爱心人士携手共同承担这份爱的责任！晚会在创造奇迹的百人大合唱中圆满落幕。 “做好自己就是最好的慈善，只有让自己强大起来，才能帮助身边更多需要帮助的人”。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/jquery.smint.js"></script>
+<script>
+
+    (function($){
+        $(window).load(function(){
+            $(".content").mCustomScrollbar({
+                scrollButtons:{
+                    enable:true
+                },
+                callbacks:{
+                    onScroll:function(){
+
+                    }
+                }
+            });
+        });
+        $('.nav_btn').on('click',function(e){
+            $(".content").mCustomScrollbar("scrollTo", e.currentTarget.hash,{});
+            console.log(e);
+            $(this).addClass("current").siblings().removeClass("current");
+        });
+    })(jQuery);
+</script>
+</body>
+</html>

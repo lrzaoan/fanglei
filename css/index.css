@@ -1,0 +1,297 @@
+#body {
+    background: #141515 url(../images/bg.jpg) no-repeat fixed center top;
+    color: #4f401c;
+}
+.siderbar{
+      position: fixed;
+    left: 100px;
+    top: 0;
+}
+.rsiderbar{
+    position: fixed;
+    right: 100px;
+    top: 0;
+    z-index: 1;
+}
+.container {
+    color: #fff;
+    width: 980px;
+    margin: 200px auto;
+    margin-bottom: 0;
+}
+.concontainer{
+    margin-top: 0;
+}
+.container h3{
+    width: 600px;
+    font-family: Constantia;
+    font-size: 14px;
+    border-bottom: 1px solid #fff;
+    float: right;
+    text-align: right;
+}
+.container .nav a{
+    float: right;
+}
+.container .nav li{
+    margin: 0 auto;
+    line-height: 24px;
+    background: url("../images/nav.png") 0 0;
+    width: 90px;
+    height: 220px;
+}
+.container .nav .cus{
+    background-position: -408px -222px;
+}
+.container .nav .cr{
+    background-position:-325px -222px;
+}
+.container .nav .bc{
+    background-position:-244px -222px;
+}
+.container .nav .nt{
+    background-position:-164px -222px;
+}
+.container .nav .aus{
+    background-position:-83px -222px;
+}
+.container .nav .homepage{
+    background-position:0 -222px;
+}
+.container .nav li:hover{
+    cursor: pointer;
+}
+.container .nav .cus:hover{
+    background-position: -408px 11px;
+}
+.container .nav .cr:hover{
+    background-position:-325px 11px;
+}
+.container .nav .bc:hover{
+    background-position:-244px 11px;
+}
+.container .nav .nt:hover{
+    background-position:-164px 11px;
+}
+.container .nav .aus:hover{
+    background-position:-83px 11px;
+}
+.container .nav .homepage:hover{
+    background-position:0 11px;
+}
+/**********************************内容页样式********************************/
+.container .leftbar p{
+    width: 150px;
+    font-family: Constantia;
+    font-size: 12px;
+    border-bottom: 1px solid #fff;
+    float: right;
+    padding-bottom: 6px;
+}
+.container .leftbar{
+   background:url("../images/logo.png") no-repeat 44px 0;
+    width: 150px;
+    height: 300px;
+    padding-top: 295px;
+    float: left;
+    margin-top: 258px;
+}
+.container .leftnav li{
+    margin: 0 auto;
+    line-height: 24px;
+    background: url("../images/cnav.png") 0 0;
+    width: 25px;
+    height: 176px;
+    border-top:1px solid #fff
+}
+.container .leftnav a{
+    float: right;
+    padding-top: 15px;
+}
+.container .leftnav .cus{
+    background-position:-127px 3px;
+}
+.container .leftnav .cr{
+    background-position:-105px 3px;
+}
+.container .leftnav .bc{
+    background-position:-80px 3px;
+}
+.container .leftnav .nt{
+    background-position:-56px 3px;
+}
+.container .leftnav .aus{
+    background-position:-30px 3px;
+}
+.container .leftnav .homepage{
+    background-position: -5px 3px;
+}
+.container .leftnav li:hover{
+    cursor: pointer;
+}
+.container .leftnav .cus:hover{
+    background-position: -300px 2px;
+}
+.container .leftnav .cr:hover{
+    background-position:-278px 2px;
+}
+.container .leftnav .bc:hover{
+    background-position:-253px 2px;
+}
+.container .leftnav .nt:hover{
+    background-position:-230px 2px;
+}
+.container .leftnav .aus:hover{
+    background-position:-204px 2px;
+}
+.container .leftnav .homepage:hover{
+    background-position:-178px 2px;
+}
+.container .content{
+    margin:0 auto;
+    width:620px;
+    height:958px;
+    padding:0 20px;
+    overflow:auto;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+#content_1 .section{
+    margin-right: 20px;
+   border-bottom: 1px solid #fff;
+    margin-bottom: 17px;
+}
+#content_1 h2{
+    font-weight: normal;
+    font-family: Constantia;
+}
+#content_1 .bgcompany{
+    margin-bottom: 106px;
+}
+#content_1 .bgcompany .bgc{
+    width: 160px;
+    float: left;
+    margin: 30px 40px 0 0;
+    line-height: 24px;
+}
+#content_1 .thend .nt_date{
+    margin-top: 44px;
+    margin-bottom: 10px;
+}
+#content_1 .thend .nt{
+    border-bottom:1px solid #fff
+}
+#content_1 .thend img{
+    margin-top: 30px;
+    padding-bottom: 45px;
+
+}
+#content_1 .thend .more{
+    background: url("../images/cnav.png") 0 -171px;
+    width: 85px;
+    height: 28px;
+    float: right;
+    margin-right: 58px;
+    margin-bottom: 20px;
+}
+#content_1 .thend .more a{
+    display: block;
+    width: 85px;
+    height: 28px;
+}
+#content_1 .thend .more:hover{
+    background-position: -173px -171px;
+}
+#content_1 .bc{
+    margin-top: 47px;
+    padding-bottom: 134px;
+    line-height: 24px;
+}
+#content_1 .section .cor{
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+#content_1 .section .leftcor{
+   width: 154px;
+    padding-right: 30px;
+    border-right: 1px solid #fff;
+    line-height: 24px;
+    height: 430px;
+    float: left;
+}
+#content_1 .section .rightcor li{
+    margin-left: 48px;
+    height: 85px;
+}
+#content_1 .section .rightcor span{
+    width: 85px;
+    float: left;
+    margin-right: 10px;
+    line-height: 24px;
+    margin-left: 36px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#content_1 .section .ct{
+    margin-top: 44px;
+}
+#content_1 .section .ct p{
+   margin-bottom: 28px;
+}
+.leftnav .current{
+   background: url("../images/lei.png") -2px -3px;
+}
+
+/********************************************新闻列表*********************************/
+#listcontainer{
+    margin-top: 0;
+}
+#listcontainer .content{
+    padding-top: 185px;
+}
+#listcontainer .content ul{
+    margin-top: 47px;
+}
+#listcontainer .content ul li{
+    line-height: 24px;
+    margin-bottom: 6px;
+}
+#listcontainer .content ul li a{
+    color: #fff;
+    text-decoration: none;
+    width: 620px;
+    display: block;
+}
+#listcontainer .content ul li a:hover{
+    border-bottom: 1px solid #fff;
+}
+#listcontainer .content .pager{
+    float: right;
+    font-size: 14px;
+    font-family: SimHei;
+    cursor: pointer;
+}
+#listcontainer .content .pager span{
+    margin: 0 8px;
+}
+/***************************************新闻内容页***********************************/
+#newcontainer{
+    margin-top: 0;
+}
+#newcontainer .content .contitle{
+  margin: 26px 0 6px 0;
+ font-size: 16px;
+}
+#newcontainer .content .contitle span{
+    float: right;
+}
+#newcontainer .content p{
+    margin-top: 26px;
+    line-height: 24px;
+    text-indent: 2em;
+}
+#newcontainer .newcon{
+    padding-right: 50px;
+    margin-bottom: 100px;
+}
